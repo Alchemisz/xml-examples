@@ -1,0 +1,10 @@
+<class>
+	<student>
+		<firstname>Adrian</firstname>
+		<lastname>Rubak</lastname>
+		<age>22</age>
+	</student>
+</class>
+
+<!-- XML Schema or XSD (XML Schema Definition) -->
+<!-- XML Schema describes the structure od an XML documents -->

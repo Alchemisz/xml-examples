@@ -1,0 +1,30 @@
+<bookstore>
+    <book category="cooking">
+        <title lang="en">Everyday Italian</title>
+        <authoor>Giada De Laurentiis</authoor>
+        <year>2005</year>
+        <price>30.00</price>
+    </book>
+
+    <book category="children">
+        <title lang="en">Harry Potter</title>
+        <authoor>J K. Rowling</authoor>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+</bookstore>
+
+<!-- XPath is a query language for navifating in XML documents -->
+<!-- To find nodes in XML document or elemens in HTML web page -->
+
+<!-- [2] - drugi tag book (childred) -->
+<!-- to po prostu taka sicieżka do danego elementu -->
+<!-- /bookstore/book[2]/author -->
+
+<!-- tu np wszyscy autorzy -->
+<!-- /bookstore/book/author -->
+
+<!-- Absolute XPath - starts from the root -->
+
+<!-- Relative XPath -->
+<!-- //*book[2]/author -->

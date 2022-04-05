@@ -1,0 +1,39 @@
+<!-- <all xmlns="http://www.w3.org/TR/html4/"> setting defualt namespace (then we dont need to add prefixes)-->
+<all xmlns:h="http://www.w3.org/TR/html4/" xmlns:f="https:/www.w3.org/furniture">
+    <table>
+        <name>Coffee Table</name>
+        <width>10</width>
+        <length>20</length>
+    </table>
+
+
+<!-- We are using namespaces (prefix) to avoid a tag name conflicts -->
+<!-- the namespace can be defined by an xmlns attribute in the start tag of an element -->
+<!-- all child elements with the same prefix are associated with the same namespace -->
+
+<!-- Namespace h (defined from w3.org) example -->
+<!-- Namespace added in root tah so don't need to do it here -->
+<!-- <h:table xmlns:h="http://www.w3.org/TR/html4/"> -->
+    <h:table>
+        <h:tr>
+            <h:td>Coffee Table</h:td>
+            <h:td>10</h:td>
+            <h:td>20</h:td>
+        </h:tr>
+    </h:table>
+
+<!-- Namespace f  example -->
+<!-- Namespace added in root tah so don't need to do it here -->
+    <!-- <f:table xmlns:f="https:/www.w3.org/furniture"> -->
+    <f:table>
+        <f:name>Coffee Table</f:name>
+        <f:width>10</f:width>
+        <f:length>20</f:length>
+    </f:table>
+</all>
+
+
+
+
+
+

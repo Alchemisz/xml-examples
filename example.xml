@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> <!--XML Prolog - optional and is the first line-->
+<friendList> <!--Root - is a parent of all elements-->
+	<friend> <!--tag-->
+		<name>Alex</name>
+		<age>25</age>
+	</friend> <!-- close tag -->
+	<friend>
+		<name>Mary</name>
+		<age>23</age>
+	</friend>
+	<friend>
+		<name gender="female">Rachel</name> <!--gender - attribute -->
+		<age>28</age>
+	</friend>
+	<bestFriend>
+		<name>Alex</name>
+		<age>29</age>
+		<isAdult>age &gt; 18</isAdult>
+	</bestFriend>
+</friendList>

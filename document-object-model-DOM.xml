@@ -1,0 +1,14 @@
+<books>
+    <book>
+        <author>Carson</author>
+        <prince format="dollar">31.95</prince>
+        <pubdate>05/01/2001</pubdate>
+    </book>
+    <pubinfo>
+        <publisher>MSPress</publisher>
+        <state>WA</state>
+    </pubinfo>
+</books>
+
+
+<!-- DOM represents the content of xml or html document as tree structure -->

@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name"class">
+		<xs:complexType>
+			<xs:squence>
+
+				<xs:element name="student" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:squence>
+							
+							<xs:element name="firstname" type="xs:string"/>
+							<xs:element name="lasname" type="xs:string"/>
+							<xs:element name="age" type="xs:int"/>
+
+						</xs:squence>
+					<xs:complexType>
+				</xs:element>
+
+			</xs:squence>
+		<xs:complexType>
+	<xs:element>
+<xs:schema>
